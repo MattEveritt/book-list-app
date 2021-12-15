@@ -1,7 +1,11 @@
 const express = require('express')
 const cors = require('cors')
+const open = require('open')
 const mysql = require('mysql')
 const app = express()
+
+open('http://localhost:3001')
+
 const connection = mysql.createConnection({
     host: 'assignmentdb.cqhux0lzwcuv.us-east-1.rds.amazonaws.com',
     user: 'admin',
