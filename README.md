@@ -13,5 +13,5 @@ Usage Instructions:
 
 Info:
 
-The backend was made with nodejs and expressjs, I set up a database with relational database with AWS and communicate with the database using the mysql package.
+The backend was made with nodejs and expressjs, I set up a relational database with AWS and communicate with the database using the mysql package.
 Axios was used to communicate between the front and backend. A static frontend page is being served by the backend. 
